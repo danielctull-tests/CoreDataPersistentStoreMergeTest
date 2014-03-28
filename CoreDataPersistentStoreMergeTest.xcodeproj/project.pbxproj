@@ -10,29 +10,11 @@
 		2454B7B218E58A8100702B17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2454B7B118E58A8100702B17 /* Foundation.framework */; };
 		2454B7B418E58A8100702B17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2454B7B318E58A8100702B17 /* CoreGraphics.framework */; };
 		2454B7B618E58A8100702B17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2454B7B518E58A8100702B17 /* UIKit.framework */; };
-		2454B7BC18E58A8100702B17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2454B7BA18E58A8100702B17 /* InfoPlist.strings */; };
 		2454B7BE18E58A8100702B17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B7BD18E58A8100702B17 /* main.m */; };
 		2454B7C218E58A8100702B17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B7C118E58A8100702B17 /* AppDelegate.m */; };
-		2454B7C518E58A8100702B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2454B7C318E58A8100702B17 /* Main.storyboard */; };
-		2454B7C818E58A8100702B17 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B7C718E58A8100702B17 /* MasterViewController.m */; };
-		2454B7CB18E58A8100702B17 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B7CA18E58A8100702B17 /* DetailViewController.m */; };
 		2454B7CD18E58A8100702B17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2454B7CC18E58A8100702B17 /* Images.xcassets */; };
-		2454B7D418E58A8100702B17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2454B7D318E58A8100702B17 /* XCTest.framework */; };
-		2454B7D518E58A8100702B17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2454B7B118E58A8100702B17 /* Foundation.framework */; };
-		2454B7D618E58A8100702B17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2454B7B518E58A8100702B17 /* UIKit.framework */; };
-		2454B7DE18E58A8100702B17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2454B7DC18E58A8100702B17 /* InfoPlist.strings */; };
-		2454B7E018E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B7DF18E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests.m */; };
+		2454B7EA18E58B3200702B17 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2454B7E918E58B3200702B17 /* iPhone.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2454B7D718E58A8100702B17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2454B7A618E58A8100702B17 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2454B7AD18E58A8100702B17;
-			remoteInfo = CoreDataPersistentStoreMergeTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2454B7AE18E58A8100702B17 /* CoreDataPersistentStoreMergeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataPersistentStoreMergeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,22 +22,11 @@
 		2454B7B318E58A8100702B17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2454B7B518E58A8100702B17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2454B7B918E58A8100702B17 /* CoreDataPersistentStoreMergeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataPersistentStoreMergeTest-Info.plist"; sourceTree = "<group>"; };
-		2454B7BB18E58A8100702B17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2454B7BD18E58A8100702B17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2454B7BF18E58A8100702B17 /* CoreDataPersistentStoreMergeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataPersistentStoreMergeTest-Prefix.pch"; sourceTree = "<group>"; };
 		2454B7C018E58A8100702B17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2454B7C118E58A8100702B17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2454B7C418E58A8100702B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2454B7C618E58A8100702B17 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		2454B7C718E58A8100702B17 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		2454B7C918E58A8100702B17 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		2454B7CA18E58A8100702B17 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		2454B7CC18E58A8100702B17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2454B7D218E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPersistentStoreMergeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2454B7D318E58A8100702B17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2454B7DB18E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataPersistentStoreMergeTestTests-Info.plist"; sourceTree = "<group>"; };
-		2454B7DD18E58A8100702B17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2454B7DF18E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataPersistentStoreMergeTestTests.m; sourceTree = "<group>"; };
+		2454B7E918E58B3200702B17 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2454B7CF18E58A8100702B17 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2454B7D418E58A8100702B17 /* XCTest.framework in Frameworks */,
-				2454B7D618E58A8100702B17 /* UIKit.framework in Frameworks */,
-				2454B7D518E58A8100702B17 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				2454B7B718E58A8100702B17 /* CoreDataPersistentStoreMergeTest */,
-				2454B7D918E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests */,
 				2454B7B018E58A8100702B17 /* Frameworks */,
 				2454B7AF18E58A8100702B17 /* Products */,
 			);
@@ -96,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				2454B7AE18E58A8100702B17 /* CoreDataPersistentStoreMergeTest.app */,
-				2454B7D218E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,7 +66,6 @@
 				2454B7B118E58A8100702B17 /* Foundation.framework */,
 				2454B7B318E58A8100702B17 /* CoreGraphics.framework */,
 				2454B7B518E58A8100702B17 /* UIKit.framework */,
-				2454B7D318E58A8100702B17 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,44 +75,12 @@
 			children = (
 				2454B7C018E58A8100702B17 /* AppDelegate.h */,
 				2454B7C118E58A8100702B17 /* AppDelegate.m */,
-				2454B7C318E58A8100702B17 /* Main.storyboard */,
-				2454B7C618E58A8100702B17 /* MasterViewController.h */,
-				2454B7C718E58A8100702B17 /* MasterViewController.m */,
-				2454B7C918E58A8100702B17 /* DetailViewController.h */,
-				2454B7CA18E58A8100702B17 /* DetailViewController.m */,
+				2454B7E918E58B3200702B17 /* iPhone.storyboard */,
 				2454B7CC18E58A8100702B17 /* Images.xcassets */,
-				2454B7B818E58A8100702B17 /* Supporting Files */,
+				2454B7B918E58A8100702B17 /* CoreDataPersistentStoreMergeTest-Info.plist */,
+				2454B7BD18E58A8100702B17 /* main.m */,
 			);
 			path = CoreDataPersistentStoreMergeTest;
-			sourceTree = "<group>";
-		};
-		2454B7B818E58A8100702B17 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2454B7B918E58A8100702B17 /* CoreDataPersistentStoreMergeTest-Info.plist */,
-				2454B7BA18E58A8100702B17 /* InfoPlist.strings */,
-				2454B7BD18E58A8100702B17 /* main.m */,
-				2454B7BF18E58A8100702B17 /* CoreDataPersistentStoreMergeTest-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2454B7D918E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				2454B7DF18E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests.m */,
-				2454B7DA18E58A8100702B17 /* Supporting Files */,
-			);
-			path = CoreDataPersistentStoreMergeTestTests;
-			sourceTree = "<group>";
-		};
-		2454B7DA18E58A8100702B17 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2454B7DB18E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests-Info.plist */,
-				2454B7DC18E58A8100702B17 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,24 +103,6 @@
 			productReference = 2454B7AE18E58A8100702B17 /* CoreDataPersistentStoreMergeTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2454B7D118E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2454B7E618E58A8100702B17 /* Build configuration list for PBXNativeTarget "CoreDataPersistentStoreMergeTestTests" */;
-			buildPhases = (
-				2454B7CE18E58A8100702B17 /* Sources */,
-				2454B7CF18E58A8100702B17 /* Frameworks */,
-				2454B7D018E58A8100702B17 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2454B7D818E58A8100702B17 /* PBXTargetDependency */,
-			);
-			name = CoreDataPersistentStoreMergeTestTests;
-			productName = CoreDataPersistentStoreMergeTestTests;
-			productReference = 2454B7D218E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,11 +111,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Daniel Tull";
-				TargetAttributes = {
-					2454B7D118E58A8100702B17 = {
-						TestTargetID = 2454B7AD18E58A8100702B17;
-					};
-				};
 			};
 			buildConfigurationList = 2454B7A918E58A8100702B17 /* Build configuration list for PBXProject "CoreDataPersistentStoreMergeTest" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -223,7 +126,6 @@
 			projectRoot = "";
 			targets = (
 				2454B7AD18E58A8100702B17 /* CoreDataPersistentStoreMergeTest */,
-				2454B7D118E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,16 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2454B7CD18E58A8100702B17 /* Images.xcassets in Resources */,
-				2454B7BC18E58A8100702B17 /* InfoPlist.strings in Resources */,
-				2454B7C518E58A8100702B17 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2454B7D018E58A8100702B17 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2454B7DE18E58A8100702B17 /* InfoPlist.strings in Resources */,
+				2454B7EA18E58B3200702B17 /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,56 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2454B7C218E58A8100702B17 /* AppDelegate.m in Sources */,
-				2454B7C818E58A8100702B17 /* MasterViewController.m in Sources */,
 				2454B7BE18E58A8100702B17 /* main.m in Sources */,
-				2454B7CB18E58A8100702B17 /* DetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2454B7CE18E58A8100702B17 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2454B7E018E58A8100702B17 /* CoreDataPersistentStoreMergeTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2454B7D818E58A8100702B17 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2454B7AD18E58A8100702B17 /* CoreDataPersistentStoreMergeTest */;
-			targetProxy = 2454B7D718E58A8100702B17 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2454B7BA18E58A8100702B17 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2454B7BB18E58A8100702B17 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2454B7C318E58A8100702B17 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2454B7C418E58A8100702B17 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2454B7DC18E58A8100702B17 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2454B7DD18E58A8100702B17 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2454B7E118E58A8100702B17 /* Debug */ = {
@@ -342,6 +190,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
 			};
 			name = Debug;
 		};
@@ -374,6 +226,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
 			};
 			name = Release;
 		};
@@ -383,7 +239,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreDataPersistentStoreMergeTest/CoreDataPersistentStoreMergeTest-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataPersistentStoreMergeTest/CoreDataPersistentStoreMergeTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -396,50 +251,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreDataPersistentStoreMergeTest/CoreDataPersistentStoreMergeTest-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataPersistentStoreMergeTest/CoreDataPersistentStoreMergeTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		2454B7E718E58A8100702B17 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataPersistentStoreMergeTest.app/CoreDataPersistentStoreMergeTest";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreDataPersistentStoreMergeTest/CoreDataPersistentStoreMergeTest-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CoreDataPersistentStoreMergeTestTests/CoreDataPersistentStoreMergeTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		2454B7E818E58A8100702B17 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataPersistentStoreMergeTest.app/CoreDataPersistentStoreMergeTest";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoreDataPersistentStoreMergeTest/CoreDataPersistentStoreMergeTest-Prefix.pch";
-				INFOPLIST_FILE = "CoreDataPersistentStoreMergeTestTests/CoreDataPersistentStoreMergeTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -460,14 +274,6 @@
 			buildConfigurations = (
 				2454B7E418E58A8100702B17 /* Debug */,
 				2454B7E518E58A8100702B17 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		2454B7E618E58A8100702B17 /* Build configuration list for PBXNativeTarget "CoreDataPersistentStoreMergeTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2454B7E718E58A8100702B17 /* Debug */,
-				2454B7E818E58A8100702B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
