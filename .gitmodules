@@ -1,0 +1,6 @@
+[submodule "DCTCoreDataStack"]
+	path = DCTCoreDataStack
+	url = git://github.com/danielctull/DCTCoreDataStack.git
+[submodule "DCTDataSource"]
+	path = DCTDataSource
+	url = git://github.com/danielctull/DCTDataSource.git

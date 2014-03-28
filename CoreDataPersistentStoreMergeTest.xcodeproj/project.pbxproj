@@ -13,8 +13,66 @@
 		2454B7BE18E58A8100702B17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B7BD18E58A8100702B17 /* main.m */; };
 		2454B7C218E58A8100702B17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B7C118E58A8100702B17 /* AppDelegate.m */; };
 		2454B7CD18E58A8100702B17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2454B7CC18E58A8100702B17 /* Images.xcassets */; };
-		2454B7EA18E58B3200702B17 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2454B7E918E58B3200702B17 /* iPhone.storyboard */; };
+		2454B80618E58BAD00702B17 /* libDCTCoreDataStack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2454B7F318E58B9D00702B17 /* libDCTCoreDataStack.a */; };
+		2454B80718E58BAD00702B17 /* libDCTDataSource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2454B80118E58BA200702B17 /* libDCTDataSource.a */; };
+		2454B80A18E58BF400702B17 /* CDPSMTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B80918E58BF400702B17 /* CDPSMTViewController.m */; };
+		2454B80D18E58DBB00702B17 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2454B80B18E58DBB00702B17 /* Model.xcdatamodeld */; };
+		2454B81418E58DC300702B17 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B81018E58DC300702B17 /* Event.m */; };
+		2454B81518E58DC300702B17 /* _Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454B81318E58DC300702B17 /* _Event.m */; };
+		24AAF88918E5A77C00B6D421 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AAF88818E5A77C00B6D421 /* iPhone.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2454B7F218E58B9D00702B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2454B7EB18E58B9D00702B17 /* DCTCoreDataStack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2437B68D15B97C2600750117;
+			remoteInfo = DCTCoreDataStack;
+		};
+		2454B7F418E58B9D00702B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2454B7EB18E58B9D00702B17 /* DCTCoreDataStack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2468705C18525E9200ADB152;
+			remoteInfo = "DCTCoreDataStack-OSX";
+		};
+		2454B7F618E58B9D00702B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2454B7EB18E58B9D00702B17 /* DCTCoreDataStack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24F6EC00158A261000CEDD41;
+			remoteInfo = DCTCoreDataStackTests;
+		};
+		2454B7F818E58B9D00702B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2454B7EB18E58B9D00702B17 /* DCTCoreDataStack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24E91B5715BEB1FA00E0DB54;
+			remoteInfo = "DCTCoreDataStack Demo";
+		};
+		2454B80018E58BA200702B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2454B7FA18E58BA200702B17 /* DCTDataSource.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2437B77D15B97FA900750117;
+			remoteInfo = DCTDataSource;
+		};
+		2454B80218E58BA200702B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2454B7FA18E58BA200702B17 /* DCTDataSource.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24AF7A90187AFE0B0091AD00;
+			remoteInfo = "DCTDataSource Demo";
+		};
+		2454B80418E58BA200702B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2454B7FA18E58BA200702B17 /* DCTDataSource.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 248CC940189ECB4A009E2F6C;
+			remoteInfo = "DCTDataSource Tests";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2454B7AE18E58A8100702B17 /* CoreDataPersistentStoreMergeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataPersistentStoreMergeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,7 +84,16 @@
 		2454B7C018E58A8100702B17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2454B7C118E58A8100702B17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2454B7CC18E58A8100702B17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2454B7E918E58B3200702B17 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		2454B7EB18E58B9D00702B17 /* DCTCoreDataStack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTCoreDataStack.xcodeproj; path = DCTCoreDataStack/DCTCoreDataStack.xcodeproj; sourceTree = "<group>"; };
+		2454B7FA18E58BA200702B17 /* DCTDataSource.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCTDataSource.xcodeproj; path = DCTDataSource/DCTDataSource.xcodeproj; sourceTree = "<group>"; };
+		2454B80818E58BF400702B17 /* CDPSMTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPSMTViewController.h; sourceTree = "<group>"; };
+		2454B80918E58BF400702B17 /* CDPSMTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPSMTViewController.m; sourceTree = "<group>"; };
+		2454B80C18E58DBB00702B17 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2454B80F18E58DC300702B17 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		2454B81018E58DC300702B17 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		2454B81218E58DC300702B17 /* _Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Event.h; sourceTree = "<group>"; };
+		2454B81318E58DC300702B17 /* _Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Event.m; sourceTree = "<group>"; };
+		24AAF88818E5A77C00B6D421 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2454B80618E58BAD00702B17 /* libDCTCoreDataStack.a in Frameworks */,
+				2454B80718E58BAD00702B17 /* libDCTDataSource.a in Frameworks */,
 				2454B7B418E58A8100702B17 /* CoreGraphics.framework in Frameworks */,
 				2454B7B618E58A8100702B17 /* UIKit.framework in Frameworks */,
 				2454B7B218E58A8100702B17 /* Foundation.framework in Frameworks */,
@@ -63,6 +132,8 @@
 		2454B7B018E58A8100702B17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2454B7EB18E58B9D00702B17 /* DCTCoreDataStack.xcodeproj */,
+				2454B7FA18E58BA200702B17 /* DCTDataSource.xcodeproj */,
 				2454B7B118E58A8100702B17 /* Foundation.framework */,
 				2454B7B318E58A8100702B17 /* CoreGraphics.framework */,
 				2454B7B518E58A8100702B17 /* UIKit.framework */,
@@ -75,12 +146,56 @@
 			children = (
 				2454B7C018E58A8100702B17 /* AppDelegate.h */,
 				2454B7C118E58A8100702B17 /* AppDelegate.m */,
-				2454B7E918E58B3200702B17 /* iPhone.storyboard */,
+				2454B80818E58BF400702B17 /* CDPSMTViewController.h */,
+				2454B80918E58BF400702B17 /* CDPSMTViewController.m */,
 				2454B7CC18E58A8100702B17 /* Images.xcassets */,
+				2454B80B18E58DBB00702B17 /* Model.xcdatamodeld */,
+				2454B80E18E58DC300702B17 /* Model */,
 				2454B7B918E58A8100702B17 /* CoreDataPersistentStoreMergeTest-Info.plist */,
 				2454B7BD18E58A8100702B17 /* main.m */,
+				24AAF88818E5A77C00B6D421 /* iPhone.storyboard */,
 			);
 			path = CoreDataPersistentStoreMergeTest;
+			sourceTree = "<group>";
+		};
+		2454B7EC18E58B9D00702B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2454B7F318E58B9D00702B17 /* libDCTCoreDataStack.a */,
+				2454B7F518E58B9D00702B17 /* libDCTCoreDataStack-OSX.a */,
+				2454B7F718E58B9D00702B17 /* DCTCoreDataStackTests.octest */,
+				2454B7F918E58B9D00702B17 /* CoreDataStack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2454B7FB18E58BA200702B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2454B80118E58BA200702B17 /* libDCTDataSource.a */,
+				2454B80318E58BA200702B17 /* DCTDataSource Demo.app */,
+				2454B80518E58BA200702B17 /* DCTDataSource Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2454B80E18E58DC300702B17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2454B80F18E58DC300702B17 /* Event.h */,
+				2454B81018E58DC300702B17 /* Event.m */,
+				2454B81118E58DC300702B17 /* Generated */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2454B81118E58DC300702B17 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				2454B81218E58DC300702B17 /* _Event.h */,
+				2454B81318E58DC300702B17 /* _Event.m */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +238,16 @@
 			mainGroup = 2454B7A518E58A8100702B17;
 			productRefGroup = 2454B7AF18E58A8100702B17 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2454B7EC18E58B9D00702B17 /* Products */;
+					ProjectRef = 2454B7EB18E58B9D00702B17 /* DCTCoreDataStack.xcodeproj */;
+				},
+				{
+					ProductGroup = 2454B7FB18E58BA200702B17 /* Products */;
+					ProjectRef = 2454B7FA18E58BA200702B17 /* DCTDataSource.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2454B7AD18E58A8100702B17 /* CoreDataPersistentStoreMergeTest */,
@@ -130,13 +255,65 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		2454B7F318E58B9D00702B17 /* libDCTCoreDataStack.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDCTCoreDataStack.a;
+			remoteRef = 2454B7F218E58B9D00702B17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2454B7F518E58B9D00702B17 /* libDCTCoreDataStack-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libDCTCoreDataStack-OSX.a";
+			remoteRef = 2454B7F418E58B9D00702B17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2454B7F718E58B9D00702B17 /* DCTCoreDataStackTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DCTCoreDataStackTests.octest;
+			remoteRef = 2454B7F618E58B9D00702B17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2454B7F918E58B9D00702B17 /* CoreDataStack.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CoreDataStack.app;
+			remoteRef = 2454B7F818E58B9D00702B17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2454B80118E58BA200702B17 /* libDCTDataSource.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDCTDataSource.a;
+			remoteRef = 2454B80018E58BA200702B17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2454B80318E58BA200702B17 /* DCTDataSource Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "DCTDataSource Demo.app";
+			remoteRef = 2454B80218E58BA200702B17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2454B80518E58BA200702B17 /* DCTDataSource Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "DCTDataSource Tests.xctest";
+			remoteRef = 2454B80418E58BA200702B17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		2454B7AC18E58A8100702B17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2454B7CD18E58A8100702B17 /* Images.xcassets in Resources */,
-				2454B7EA18E58B3200702B17 /* iPhone.storyboard in Resources */,
+				24AAF88918E5A77C00B6D421 /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2454B80A18E58BF400702B17 /* CDPSMTViewController.m in Sources */,
 				2454B7C218E58A8100702B17 /* AppDelegate.m in Sources */,
+				2454B81418E58DC300702B17 /* Event.m in Sources */,
 				2454B7BE18E58A8100702B17 /* main.m in Sources */,
+				2454B81518E58DC300702B17 /* _Event.m in Sources */,
+				2454B80D18E58DBB00702B17 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +370,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				WARNING_CFLAGS = (
 					"-Weverything",
@@ -224,6 +406,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				WARNING_CFLAGS = (
@@ -276,8 +459,22 @@
 				2454B7E518E58A8100702B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2454B80B18E58DBB00702B17 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2454B80C18E58DBB00702B17 /* Model.xcdatamodel */,
+			);
+			currentVersion = 2454B80C18E58DBB00702B17 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2454B7A618E58A8100702B17 /* Project object */;
 }
